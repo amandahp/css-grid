@@ -1,9 +1,11 @@
 .wrapper{
   display: grid;
   /*grid-template-columns: repeat(3, 200px);*/
-  grid-template-columns: minmax(200px, 40%) 200px 200px;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
   grid-auto-rows: 200px;
+  /*align-items: start;*/
+  justify-items: center;
 }
 
 .wrapper div{
